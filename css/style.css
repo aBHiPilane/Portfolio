@@ -437,10 +437,15 @@ body{
     color: #9ca3af;
     font-size: 1.05rem;
   }
+  .container {
+  max-width: 1400px;   /* or 1200px–1600px */
+  margin: 0 auto;
+}
+
 
   .tech-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(4,1fr);
     gap: 36px;
   }
 
@@ -481,6 +486,10 @@ body{
 
   .tech-icon.purple {
     background: linear-gradient(135deg, #a855f7, #7c3aed);
+  }
+
+  .tech-icon.yellow {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
   }
 
   /* TEXT */
