@@ -186,92 +186,66 @@
       </div>
 
     </div>
-  </section>
-  <!-- ================= TECH STACK ================= -->
+  </section><div class="tech-grid">
 
-  <section id="skills" class="tech-section">
-    <div class="container">
-
-      <h2 class="tech-title">
-        Tech <span>Stack</span>
-      </h2>
-      <p class="tech-subtitle">
-        Technologies and tools I work with
+    <!-- DATABASE & ANALYTICS -->
+    <div class="tech-card">
+      <div class="tech-icon green">DA</div>
+      <h3>Database & Analytics</h3>
+      <p>
+        Data management, reporting, and business intelligence solutions.
       </p>
-
-      <div class="tech-grid">
-
-        <!-- DATA & ANALYTICS -->
-        <div class="tech-card">
-          <div class="tech-icon green">DA</div>
-          <h3>Data & Analytics</h3>
-          <p>
-            Data analysis, reporting, and dashboarding for business insights.
-          </p>
-          <div class="tech-tags">
-            <span>SQL</span>
-            <span>MySQL</span>
-            <span>Power BI</span>
-            <span>Data Modelling</span>
-          </div>
-        </div>
-
-        <!-- FRONTEND -->
-        <div class="tech-card">
-          <div class="tech-icon blue">&lt;/&gt;</div>
-          <h3>Frontend Development</h3>
-          <p>
-            Responsive UI development with clean structure and usability.
-          </p>
-          <div class="tech-tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-          </div>
-        </div>
-        <!-- Programming Languages -->
-         <div class="tech-card">
-          <div class = "tech-icon yellow">PL</div>
-          <h3>Programming Languages</h3>
-          <p>
-            Proficient in multiple programming languages for diverse applications.
-          </p>
-          <div class="tech-tags">
-            <span>Java</span>
-            <span>C</span>
-         </div>
-        </div>
-
-        <!-- CLOUD & DEVOPS -->
-        <div class="tech-card">
-          <div class="tech-icon purple">☁</div>
-          <h3>Cloud & DevOps</h3>
-          <p>
-            Cloud fundamentals, deployments, and CI/CD exposure.
-          </p>
-          <div class="tech-tags">
-            <span>AWS</span>
-            <span>Azure DevOps</span>
-            <span>Deployment</span>
-          </div>
-        </div>
-
+      <div class="tech-tags">
+        <span>MS SQL</span>
+        <span>MySQL</span>
+        <span>Power BI</span>
+        <span>DAX</span>
       </div>
     </div>
-  </section>
 
-  <section id="experience" class="experience-section">
-    <div class="container">
-
-      <h2 class="experience-title">
-        Work <span>Experience</span>
-      </h2>
-      <p class="experience-subtitle">
-        My professional journey and responsibilities
+    <!-- AI TOOLS -->
+    <div class="tech-card">
+      <div class="tech-icon blue">AI</div>
+      <h3>AI Tools</h3>
+      <p>
+        Experience with AI-powered development and conversational AI platforms.
       </p>
+      <div class="tech-tags">
+        <span>Cursor</span>
+        <span>IBM Watson Studio</span>
+        <span>Watson Assistant</span>
+      </div>
+    </div>
 
-      <div class="timeline">
+    <!-- PROGRAMMING -->
+    <div class="tech-card">
+      <div class="tech-icon yellow">PL</div>
+      <h3>Programming</h3>
+      <p>
+        Building applications and solving problems using modern programming languages.
+      </p>
+      <div class="tech-tags">
+        <span>Python</span>
+        <span>Java</span>
+      </div>
+    </div>
 
+    <!-- CLOUD & TOOLS -->
+    <div class="tech-card">
+      <div class="tech-icon purple">☁</div>
+      <h3>Cloud & Tools</h3>
+      <p>
+        Development environments, version control, and cloud platform exposure.
+      </p>
+      <div class="tech-tags">
+        <span>AWS</span>
+        <span>Azure DevOps</span>
+        <span>VS Code</span>
+        <span>Notepad++</span>
+      </div>
+    </div>
+
+  </div>
         <!-- EXPERIENCE ITEM -->
         <div class="timeline-item">
           <div class="timeline-icon">🏢</div>
@@ -294,7 +268,9 @@
               <li>Designed and implemented scalable, cost-effective solutions/interfaces for Client’s.</li>
               <li>Provided Training and Consultation to clients, to ensure successful system adoption and Performance.</li>
               <li>Developed hands-on experience in SQL and implemented updates to JSON and XML configuration files.</li>
-              <li>Created and Structured Html pages, Gained knowledge about AWS services and basic Familiarity on Azure DevOps – Repos.</li>
+              <li>Exposure to Azure DevOps pipelines and cloud deployment workflows while supporting client infrastructure implementations on AWS.</li>
+              <li>Supported email service integrations using SMTP configurations and applicationpasswords.</li>
+              <li>Collaborated with cross-functional teams to troubleshoot production issues and ensure application availability.</li>
             </ul>
 
             <div class="timeline-tags">
@@ -324,6 +300,27 @@
       <!-- PROJECT GRID -->
       <div class="projects-grid">
 
+              <!-- PROJECT 2 -->
+      <div class="project-card">
+        <h3>Three-Tier Application Deployment on AWS (In Progress)</h3>
+        <span class="project-subtitle">Cloud Computing | AWS | DevOps</span>
+
+        <ul>
+          <li>Developing a three-tier application consisting of frontend, backend, and database services.</li>
+          <li>Containerizing application components using Docker and managing multi-container environments.</li>
+          <li>Automating build and deployment workflows using GitHub Actions CI/CD pipelines.</li>
+          <li>Provisioning cloud infrastructure on AWS using Terraform following Infrastructure as Code (IaC) practices.</li>
+        </ul>
+
+        <div class="project-tags">
+          <span>AWS</span>
+          <span>Docker</span>
+          <span>Terraform</span>
+          <span>GitHub Actions</span>
+          <span>CI/CD</span>
+        </div>
+      </div>
+      
         <!-- PROJECT 1 -->
         <div class="project-card">
           <h3>Corporate Shift Timings Analytics - Mumbai</h3>
@@ -341,25 +338,6 @@
             <span>SQL</span>
             <span>MySQL</span>
             <span>Data Modelling</span>
-          </div>
-        </div>
-
-        <!-- PROJECT 2 -->
-        <div class="project-card">
-          <h3>Lung Cancer Awareness & Risk Assessment Platform</h3>
-          <span class="project-subtitle">AI / ML | IBM Watson</span>
-
-          <ul>
-            <li>Developed an AI-driven platform to increase lung cancer awareness and provide personalized risk assessment.</li>
-            <li>Built a chatbot using IBM Watson Assistant to provide real-time responses and health guidance.</li>
-            <li>Trained and deployed ML models in IBM Watson Studio for lung cancer prediction.</li>
-            <li>Achieved 78% accuracy using Snap Random Forest Classifier; evaluated using ROC curve and confusion matrix.</li>
-          </ul>
-
-          <div class="project-tags">
-            <span>IBM Watson</span>
-            <span>Machine Learning</span>
-            <span>Healthcare AI</span>
           </div>
         </div>
 
